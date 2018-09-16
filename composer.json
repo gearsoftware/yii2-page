@@ -1,0 +1,20 @@
+{
+  "name": "gearsoftware/yii2-page",
+  "description": "Page Module For Yii2",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "José Peña",
+      "email": "joepa37@gmail.com"
+    }
+  ],
+  "require": {
+    "gearsoftware/yii2-core": "@dev",
+    "gearsoftware/yii2-media": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "gearsoftware\\page\\": "src"
+    }
+  }
+}
